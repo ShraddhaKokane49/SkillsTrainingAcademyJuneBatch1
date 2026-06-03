@@ -21,4 +21,4 @@ def test_userDetails():
     response = client.get("/userDetails")
 
     assert response.status_code == 200
-    assert response.json["maritalStatus"] == "Married"
+    assert response.json["maritalStatus"] == "unMarried"
